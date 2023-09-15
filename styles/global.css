@@ -6,7 +6,7 @@
 
 body {
   min-width: 1100px;
-  margin: 0;
+  margin: 50px;
   font-family: Raleway, sans-serif;
 }
 
@@ -23,6 +23,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 a {
