@@ -9,6 +9,7 @@
 body {
   font-style: normal;
   min-width: 1100px;
+  max-width: 1440px;
   margin: 0px;
   font-family: Raleway, sans-serif;
 }
@@ -29,14 +30,9 @@ blockquote {
   color: black;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .header {
   height: 110px;
-  width: 1440px;
+  width: 100%;
   margin-top: 92px;
   margin-bottom: 92px;
 
@@ -44,7 +40,7 @@ body {
 
 .header__menu {
   padding-right: 0;
-  height: 110px;
+  height: 100%;
   width: 33%;
   float: left;
   display: flex;
@@ -68,7 +64,7 @@ a {
 
 
 .header__logo {
-  height: 110px;
+  height: 100%;
   width: 34%;
   margin-top: auto;
   float: left;
@@ -82,8 +78,7 @@ a {
 }
 
 .header__address {
-  padding-right: 0;
-  height: 110px;
+  height: 100%;
   width: 33%;
   float: left;
   display: flex;
@@ -94,8 +89,6 @@ a {
 .header__address-list {
   list-style-type: none;
   margin-right: 52px;
-  height: auto;
-  width: auto;
 
 }
 
@@ -122,7 +115,7 @@ p {
 
 .cover_image div {
   height: 757px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .cover_image-background {
@@ -247,7 +240,7 @@ h2 {
   width: 430px;
   height: 450px;
   position: absolute;
-  background-image: url(C:/Users/USER/Desktop/dev/ono-tebe-nado/images/card-lot-01.jpg);
+  background: url(../images/card-lot-01.jpg);
   background-size: cover;
   z-index: 2;
   display: flex;
@@ -280,7 +273,7 @@ h2 {
   width: 430px;
   height: 450px;
   position: absolute;
-  background-image: url(C:/Users/USER/Desktop/dev/ono-tebe-nado/images/card-lot-02.jpg);
+  background: url(../images/card-lot-02.jpg);
   background-size: cover;
   display: flex;
   align-self: self-end;
@@ -290,7 +283,7 @@ h2 {
   width: 430px;
   height: 450px;
   position: absolute;
-  background-image: url(C:/Users/USER/Desktop/dev/ono-tebe-nado/images/card-lot-03.jpg );
+  background: url(../images/card-lot-03.jpg);
   background-size: cover;
   display: flex;
   align-self: self-end;
@@ -446,7 +439,6 @@ p {
 }
 
 .footer__social-list {
-  margin-left: 40%;
   display: flex;
   margin-right: 50px;
 }
