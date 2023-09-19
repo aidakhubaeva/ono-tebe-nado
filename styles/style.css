@@ -106,9 +106,7 @@ p {
 }
 
 .marker {
-  margin-left: 12px;
-  margin-right: 7px;
-  size: 7px;
+  margin: 0px 7px 0px 12px;
 }
 
 /*--------------------------------------------------*/
@@ -216,7 +214,6 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-style: bold;
   margin-bottom: 29px;
   margin-left: 40px;
 }
@@ -251,7 +248,7 @@ h2 {
   position: absolute;
   z-index: 3;
   margin: 51px 40px auto 40px;
-  text-transform: uppercase font-weight 400;
+  text-transform: uppercase;
   text-decoration: underline #FFF 0.5px;
 }
 
