@@ -1,368 +1,312 @@
-body {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-}
-
-
-/*-------------------------------------------------------------------------------------------------*/
-
 .header {
-  min-width: 1100px;
-  padding: 95px 50px;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+    min-width: 1100px;
+    padding: 95px 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 
 .header__menu {
-  display: grid;
-  place-items: center start;
-  font-size: 18px;
-  text-underline-offset: 4px;
+    display: grid;
+    place-items: center start;
+    font-size: 18px;
+    text-underline-offset: 4px;
 }
 
 .header__menu-list {
-  display: flex;
-  list-style-type: circle;
+    display: flex;
+    list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
-  margin-right: 32px;
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .header__links-list-item_no-active {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .header__links-list-item {
-  padding-right: 32px;
+    padding-right: 32px;
 }
-
 
 .header__logo-image {
-  height: 105px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  background-position: center center;
+    height: 105px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-position: center center;
 }
 
-
-
-.header__address {
-  display: grid;
-  place-items: center end;
+.address {
+    display: grid;
+    place-items: center end;
 }
 
-
-.header__address-list {
-  list-style-type: none;
-  font-style: normal;
+.address-list {
+    list-style-type: none;
+    font-style: normal;
 }
 
-
-.header__address-list-item {
-  font-size: 18px;
-  text-underline-offset: 4px;
-  line-height: 135%;
+.address-list-item {
+    font-size: 18px;
+    text-underline-offset: 4px;
+    line-height: 135%;
 }
-
-
-
 
 /*---------------------------------------------------------------------------------------------------*/
 
-
-
-
 .cover {
-  min-height: 757px;
-  max-width: 1440px;
-  z-index: 0;
-  position: relative;
-}
-
-.cover_image-background {
-  background-image: url(../images/cover.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 757px;
-  width: 100%;
-  position: absolute;
-  z-index: 1;
+    background-image: url(../images/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    min-height: 757px;
+    max-width: 1440px;
+    position: relative;
 }
 
 .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
 }
 
 .cover__title {
-  padding: 165px 50px 237px 50px;
-  width: 100%;
-  position: absolute;
-  z-index: 3;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  font-size: 100px;
-  letter-spacing: 30px;
+    padding-top: 165px;
+    padding: 165px 50px 147px 50px;
+    width: 100%;
+    z-index: 3;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    letter-spacing: 30px;
 }
 
-
 .letter-spacing-extended {
-  letter-spacing: 62px;
+    letter-spacing: 60px;
 }
 
 .aligner-text {
-  align-self: start;
+    align-self: start;
 }
 
 .aligned-text_center {
-  align-self: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .aligned-text_right {
-  align-self: end;
+    align-self: end;
 }
 
 .no-letter-spacing {
-  letter-spacing: 0px;
+    letter-spacing: 0px;
 }
 
 .cover-description {
-  z-index: 1;
-  width: 100%;
-  position: relative;
-  display: flex;
-  margin: auto;
-  justify-content: end;
-  align-items: center;
-  max-width: 1440px;
-  padding: 655px 50px 0 0;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: end;
+    align-items: center;
+    max-width: 1440px;
+    padding: 0 50px 65px 50px;
 }
 
 .cover-description-text {
-  color: #FFF;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  word-spacing: 20px;
-  text-transform: uppercase;
-  padding-right: 78px;
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    word-spacing: 16px;
+    text-transform: uppercase;
+    padding-right: 78px;
 }
 
 .bet-button {
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #FFF;
-  border: 1px solid #ffffff;
-  background: transparent;
-  z-index: 3;
-  padding: 12px 30px 12px 33px;
-
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #ffffff;
+    background: transparent;
+    z-index: 3;
+    padding: 12px 30px 12px 33px;
 }
 
 /*------------------------------------------------------------------------------*/
-.lots {
-  padding: 180px 50px 90px 50px;
-  width: auto;
-  height: auto;
-}
 
+.lots {
+    padding: 180px 50px 90px 50px;
+    width: auto;
+    height: auto;
+}
 
 .lots__heading {
-  padding-left: 40px;
-  padding-bottom: 27px;
-  font-size: 40px;
-  padding-left: 40px;
-  text-transform: uppercase;
-  position: relative;
+    padding-left: 40px;
+    padding-bottom: 27px;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
 }
 
-
 .lots__card-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    list-style-type: none;
 }
 
 .card__title {
-  padding: 51px 40px 0 40px;
-  font-size: 22px;
-  color: #FFF;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: underline 1px #FFF;
-  line-height: 120%;
-  text-underline-offset: 4px;
+    padding: 51px 40px 0 40px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline 1px #fff;
+    line-height: 120%;
+    text-underline-offset: 4px;
+    z-index: 1;
 }
 
 .card__text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 120%;
-  color: #FFF;
-  padding: 0 40px 50px 40px;
-  display: grid;
-  align-items: end;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+    padding: 0 40px 50px 40px;
+    display: grid;
+    align-items: end;
+    z-index: 1;
 }
 
 .card-link {
-  text-decoration: none;
+    text-decoration: none;
+    position: relative;
 }
-
 
 .card_type-film {
-  min-height: 450px;
-  background: url(../images/card-lot-01.jpg);
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
-  background-size: cover;
-  display: grid;
+    min-height: 450px;
+    background: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    display: grid;
 }
-
 
 .card_type-book {
-  min-height: 450px;
-  background: url(../images/card-lot-02.jpg);
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
-  background-size: cover;
-  display: grid;
+    min-height: 450px;
+    background: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    display: grid;
 }
-
 
 .card_type-picture {
-
-  min-height: 450px;
-  background: url(../images/card-lot-03.jpg);
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
-  background-size: cover;
-  display: grid;
+    min-height: 450px;
+    background: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    display: grid;
 }
-
 
 .lots__link {
-  padding-left: 40px;
-  padding-top: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
-
 
 .lots__look-more-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.1px;
-  color: black;
-  text-underline-offset: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: black;
+    text-underline-offset: 4px;
 }
-
-
 
 /*-------------------------------*/
 
-
-
 .about {
-  padding: 90px 50px;
-  display: grid;
-  grid-template-columns: 430px auto;
-  gap: 22px;
+    padding: 90px 50px;
+    display: grid;
+    grid-template-columns: 430px auto;
+    gap: 22px;
 }
 
 .about__column-logo {
-  width: 240px;
-  height: 240px;
-  background-color: black;
-  border-radius: 50%;
-  display: grid;
-  justify-self: center;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: grid;
+    justify-self: center;
 }
 
 .about__logo-image {
-  background: url(../images/logo-white.svg);
-  width: 148px;
-  height: 114px;
-  margin: auto;
-  align-self: center;
+    background: url(../images/logo-white.svg);
+    width: 148px;
+    height: 114px;
+    margin: auto;
+    align-self: center;
 }
 
 .about__column-title {
-  padding-top: 100px;
-  display: grid;
+    padding-top: 100px;
+    display: grid;
 }
 
 .about__title {
-  font-size: 40px;
-  text-transform: uppercase;
-  height: min-content;
-  padding-bottom: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+    height: min-content;
+    padding-bottom: 75px;
 }
 
 .about__text {
-  padding-top: 25px;
-  font-size: 20px;
-  color: black;
-  font-style: normal;
+    padding-top: 25px;
+    font-size: 20px;
+    color: black;
+    font-style: normal;
 }
-
-
 
 /*-----------------------------------------*/
 
-
-
-
 .footer {
-  padding: 90px 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 356px;
-}
-
-.footer__address {
-  width: max-content;
-}
-
-.footer__address-list {
-  list-style-type: none;
-  font-size: 18px;
-  line-height: 24.3px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 90px 50px;
 }
 
 .footer__menu {
-  text-align: center;
+    text-align: center;
 }
 
 .footer__menu-list {
-  list-style-type: none;
-  text-underline-offset: 4px;
-  font-size: 18px;
+    list-style-type: none;
+    text-underline-offset: 4px;
+    font-size: 18px;
 }
 
-.footer__links-list-item_no-bullit {
-  text-decoration: none;
+.footer__menu-list-active {
+    text-decoration: none;
 }
 
 .footer__social {
-  display: grid;
-  place-items: start end;
-  line-height: 24.3px;
+    display: grid;
+    place-items: start end;
+    line-height: 24.3px;
 }
 
 .footer__social-list {
-  display: flex;
-  gap: 48px;
-  list-style: none;
+    display: flex;
+    gap: 48px;
+    list-style: none;
 }
 
 .footer__social-icon {
-  width: 48px;
+    width: 48px;
 }

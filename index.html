@@ -7,55 +7,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
   <header class="header">
     <nav class="header__menu">
       <ul class="header__menu-list">
-        <li class="header__links-list-item_no-bullit"><a class="header__links-list-item_no-active" href="#">главная</a></li>
+        <li class=" header__links-list-item header__links-list-item_no-bullit"><a
+            class="header__links-list-item_no-active" href="#">главная</a></li>
         <li><a class="header__links-list-item" href="#">посмотреть лоты</a></li>
         <li><a class="header__links-list-item" href="#">об аукционе</a></li>
       </ul>
     </nav>
-    <a><img class="header__logo-image" src="images/logo-black.svg" alt="лого-черный"></a>
-    <address class="header__address">
-      <ul class="header__address-list">
-        <li class="header__address-list-item"><a href="tel:+99995555555">+9 999 555 5555</a></li>
-        <li class="header__address-list-item"><a href="mailto:+info@sobaka.ge">info@sobaka.ge</a></li>
-        <li class="header__address-list-item">наб. Принсенграхт 263-265,</li>
-        <li class="header__address-list-item">Амстердам</li>
+    <a href="#"><img class="header__logo-image" src="images/logo-black.svg" alt="лого-черный"></a>
+    <address class="address">
+      <ul class="address-list">
+        <li class="address-list-item"><a href="tel:+99995555555">+9 999 555 5555</a></li>
+        <li class="address-list-item"><a href="mailto:+info@sobaka.ge">info@sobaka.ge</a></li>
+        <li class="address-list-item">наб. Принсенграхт 263-265,<br>Амстердам</li>
       </ul>
-
     </address>
   </header>
-
   <main>
     <section class="cover">
-      <div class="cover_image-background">
-        <div class="overlay"></div>
-      </div>
-<h1 class="cover__title">
+      <div class="overlay"></div>
+      <h1 class="cover__title">
         <span class="aligner-text">О<span class="letter-spacing-extended">НО</span></span>
         <span class="aligned-text_center">ТЕ<span class="letter-spacing-extended">БЕ</span></span>
         <span class="aligned-text_right"><span class="letter-spacing-extended">Н</span>АД<span
-         class="no-letter-spacing">О</span></span>
-   </h1>
-   <div class="cover-description">
-      <p class="cover-description-text">аукцион вещей, в которые никто не верил</p>
-      <button class="bet-button">сделать ставку</button>
+            class="no-letter-spacing">О</span></span>
+      </h1>
+      <div class="cover-description">
+        <p class="cover-description-text">аукцион вещей, в которые никто не верил</p>
+        <button class="bet-button">сделать ставку</button>
       </div>
-
     </section>
     <section class="lots">
-    <h2 class="lots__heading">лоты</h2>
+      <h2 class="lots__heading">лоты</h2>
       <ul class="lots__card-list">
         <li>
           <a class="card-link" href="#1">
             <article class="card_type-film">
-              <p class="card__title">фильм режиссёра, который бросил киношколу</p>
+              <div class="overlay"></div>
+              <h3 class="card__title">фильм режиссёра, который бросил киношколу</h3>
               <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
                 знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
@@ -64,7 +60,8 @@
         <li>
           <a class="card-link" href="#2">
             <article class="card_type-book">
-              <p class="card__title">книга, где описан один скучный день из жизни рекламного агента</p>
+              <div class="overlay"></div>
+              <h3 class="card__title">книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
                 древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная
                 с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
@@ -75,7 +72,8 @@
         <li>
           <a class="card-link" href="#3">
             <article class="card_type-picture">
-              <p class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</p>
+              <div class="overlay"></div>
+              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
                 инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали,
                 что это — одна из революционных работ Кандинского? </p>
@@ -87,12 +85,10 @@
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </div>
     </section>
-
     <section class="about">
       <div class="about__column-logo"><a href="#5" class="about__logo-image"></a></div>
-
       <div class="about__column-title">
-        <h3 class="about__title">об аукционе</h3>
+        <h2 class="about__title">об аукционе</h2>
         <p class="about__text"> Здесь вы не встретите очередное пафосное собрание
           невероятно дорогого
           антиквариата. Наши лоты
@@ -107,29 +103,21 @@
           в
           эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
       </div>
-
-
     </section>
   </main>
-
-
-
-
-
   <footer class="footer">
-    <div class="footer__address">
-      <ul class="footer__address-list">
-        <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
-        <li><a href="mailto:+info@sobaka.ge">info@sobaka.ge</a></li>
-        <li>наб. Принсенграхт 263-265,</li>
-        <li>Амстердам</li>
+    <address class="address">
+      <ul class="address-list">
+        <li class="address-list-item"><a href="tel:+99995555555">+9 999 555 5555</a></li>
+        <li class="address-list-item"><a href="mailto:+info@sobaka.ge">info@sobaka.ge</a></li>
+        <li class="address-list-item">наб. Принсенграхт 263-265,<br>Амстердам</li>
       </ul>
-    </div>
+    </address>
     <nav class="footer__menu">
       <ul class="footer__menu-list">
-        <li><a class="footer__links-list-item_no-bullit" href="#">главная</a></li>
-        <li><a class="footer__links-list-item" href="#">посмотреть лоты</a></li>
-        <li><a class="footer__links-list-item" href="#">об аукционе</a></li>
+        <li><a class="footer__menu-list-active" href="#">главная</a></li>
+        <li><a class="footer__menu-list-item" href="#">посмотреть лоты</a></li>
+        <li><a class="footer__menu-list-item" href="#">об аукционе</a></li>
       </ul>
     </nav>
     <div class="footer__social">
