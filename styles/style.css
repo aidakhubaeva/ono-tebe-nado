@@ -41,17 +41,20 @@
 .address {
     display: grid;
     place-items: center end;
+
 }
 
 .address-list {
     list-style-type: none;
     font-style: normal;
+    max-width: 240px;
+    min-height: 97px;
 }
 
 .address-list-item {
     font-size: 18px;
     text-underline-offset: 4px;
-    line-height: 135%;
+
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -75,15 +78,18 @@
 }
 
 .cover__title {
-    padding-top: 165px;
-    padding: 165px 50px 147px 50px;
+    padding: 165px 50px 135px 50px;
     width: 100%;
     z-index: 3;
     color: #fff;
     display: flex;
+    gap: 20px;
     flex-direction: column;
     font-size: 100px;
+    font-style: normal;
     letter-spacing: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .letter-spacing-extended {
@@ -92,16 +98,19 @@
 
 .aligner-text {
     align-self: start;
+    line-height: 115%;
+
 }
 
 .aligned-text_center {
     align-self: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    line-height: 100%;
+
 }
 
 .aligned-text_right {
     align-self: end;
+    line-height: 100%;
 }
 
 .no-letter-spacing {
@@ -117,7 +126,7 @@
     justify-content: end;
     align-items: center;
     max-width: 1440px;
-    padding: 0 50px 65px 50px;
+    padding: 0 50px 50px 50px;
 }
 
 .cover-description-text {
@@ -126,7 +135,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    word-spacing: 16px;
+    word-spacing: 18px;
     text-transform: uppercase;
     padding-right: 78px;
 }
