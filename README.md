@@ -1,9 +1,9 @@
 
-# Is It Necessary?
+# ono-tebe-nado
 
 ![Project Preview](https://drive.google.com/uc?export=view&id=1GGmmJ7yfSO578bBpGlTQKw-atlM6UlHr)
 
-**"Is It Necessary?"** is a project that represents an auction webpage designed based on a provided layout. This project helps to refine skills in web layout development and applying modern approaches to creating web interfaces.
+**"ono-tebe-nado"** is a project that represents an auction webpage designed based on a provided layout. This project helps to refine skills in web layout development and applying modern approaches to creating web interfaces.
 
 ---
 
